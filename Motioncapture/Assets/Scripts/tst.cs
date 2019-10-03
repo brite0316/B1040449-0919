@@ -26,4 +26,11 @@ public class tst : MonoBehaviour
     public Transform camPos;
     public GameObject obj;
     public Debug deb;
+
+    private void Start()
+    {
+        cam.depth = 10.5f;
+
+        Debug.Log("123");
+    }
 }
